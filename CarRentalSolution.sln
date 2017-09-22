@@ -1,0 +1,138 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Console", "CarRental.Console\CarRental.Console.csproj", "{6A7C6805-A430-4BD4-8101-26EE802AD776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Models", "CarRental.Models\CarRental.Models.csproj", "{8B5E7617-81A6-46C3-AB6C-83C2E2A98299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Entities", "CarRental.Entities\CarRental.Entities.csproj", "{683AAF7A-B4AC-4639-9396-E88707998244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.BusinessLayer", "CarRental.BusinessLayer\CarRental.BusinessLayer.csproj", "{E14AF1B3-8B43-47F3-9967-C46A8038B287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Contracts", "CarRental.Contracts\CarRental.Contracts.csproj", "{0C4BAE1D-51B0-47CE-A4B2-7C70AE2CE5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Services", "CarRental.Services\CarRental.Services.csproj", "{3D2EABC3-E93A-4D47-9BBA-B842A877B104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Core", "CarRental.Core\CarRental.Core.csproj", "{4FAC58C7-C23E-4DFF-8A1A-38E788B28CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.BusinessLayer.Test", "CarRental.BusinessLayer.Test\CarRental.BusinessLayer.Test.csproj", "{DA56E509-7E51-490E-BCC7-C9BA7E7782DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8297C35-9F7C-4A10-98E9-B436BD535D7C}"
+	ProjectSection(SolutionItems) = preProject
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Services.Test", "CarRental.Services.Test\CarRental.Services.Test.csproj", "{BFBA331F-70E7-4639-A067-81B6DD4FCCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.BusinessLayer.IntegrationTest", "CarRental.BusinessLayer.IntegrationTest\CarRental.BusinessLayer.IntegrationTest.csproj", "{2DA6BA33-2ABE-42E0-AA6C-0A2D98877FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.WpfClient", "CarRental.WpfClient\CarRental.WpfClient.csproj", "{45DEB44D-9428-4C92-ADFC-C15467722B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject1", "CodedUITestProject1\CodedUITestProject1.csproj", "{E035F4F8-3FC8-4058-A304-ECE6955DBAE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7C6805-A430-4BD4-8101-26EE802AD776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7C6805-A430-4BD4-8101-26EE802AD776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7C6805-A430-4BD4-8101-26EE802AD776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7C6805-A430-4BD4-8101-26EE802AD776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5E7617-81A6-46C3-AB6C-83C2E2A98299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5E7617-81A6-46C3-AB6C-83C2E2A98299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5E7617-81A6-46C3-AB6C-83C2E2A98299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5E7617-81A6-46C3-AB6C-83C2E2A98299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683AAF7A-B4AC-4639-9396-E88707998244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683AAF7A-B4AC-4639-9396-E88707998244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683AAF7A-B4AC-4639-9396-E88707998244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683AAF7A-B4AC-4639-9396-E88707998244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14AF1B3-8B43-47F3-9967-C46A8038B287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14AF1B3-8B43-47F3-9967-C46A8038B287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14AF1B3-8B43-47F3-9967-C46A8038B287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14AF1B3-8B43-47F3-9967-C46A8038B287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4BAE1D-51B0-47CE-A4B2-7C70AE2CE5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4BAE1D-51B0-47CE-A4B2-7C70AE2CE5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4BAE1D-51B0-47CE-A4B2-7C70AE2CE5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4BAE1D-51B0-47CE-A4B2-7C70AE2CE5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2EABC3-E93A-4D47-9BBA-B842A877B104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2EABC3-E93A-4D47-9BBA-B842A877B104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2EABC3-E93A-4D47-9BBA-B842A877B104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2EABC3-E93A-4D47-9BBA-B842A877B104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAC58C7-C23E-4DFF-8A1A-38E788B28CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAC58C7-C23E-4DFF-8A1A-38E788B28CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAC58C7-C23E-4DFF-8A1A-38E788B28CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAC58C7-C23E-4DFF-8A1A-38E788B28CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA56E509-7E51-490E-BCC7-C9BA7E7782DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA56E509-7E51-490E-BCC7-C9BA7E7782DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA56E509-7E51-490E-BCC7-C9BA7E7782DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA56E509-7E51-490E-BCC7-C9BA7E7782DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBA331F-70E7-4639-A067-81B6DD4FCCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBA331F-70E7-4639-A067-81B6DD4FCCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBA331F-70E7-4639-A067-81B6DD4FCCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBA331F-70E7-4639-A067-81B6DD4FCCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA6BA33-2ABE-42E0-AA6C-0A2D98877FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA6BA33-2ABE-42E0-AA6C-0A2D98877FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA6BA33-2ABE-42E0-AA6C-0A2D98877FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA6BA33-2ABE-42E0-AA6C-0A2D98877FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DEB44D-9428-4C92-ADFC-C15467722B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DEB44D-9428-4C92-ADFC-C15467722B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DEB44D-9428-4C92-ADFC-C15467722B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DEB44D-9428-4C92-ADFC-C15467722B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E035F4F8-3FC8-4058-A304-ECE6955DBAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E035F4F8-3FC8-4058-A304-ECE6955DBAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E035F4F8-3FC8-4058-A304-ECE6955DBAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E035F4F8-3FC8-4058-A304-ECE6955DBAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E42699B-8654-4861-8D4F-11F1EFC4F932}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anecon.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CarRental.Console\\CarRental.Console.csproj
+		SccProjectName1 = CarRental.Console
+		SccLocalPath1 = CarRental.Console
+		SccProjectUniqueName2 = CarRental.Models\\CarRental.Models.csproj
+		SccProjectName2 = CarRental.Models
+		SccLocalPath2 = CarRental.Models
+		SccProjectUniqueName3 = CarRental.Entities\\CarRental.Entities.csproj
+		SccProjectName3 = CarRental.Entities
+		SccLocalPath3 = CarRental.Entities
+		SccProjectUniqueName4 = CarRental.BusinessLayer\\CarRental.BusinessLayer.csproj
+		SccProjectName4 = CarRental.BusinessLayer
+		SccLocalPath4 = CarRental.BusinessLayer
+		SccProjectUniqueName5 = CarRental.Contracts\\CarRental.Contracts.csproj
+		SccProjectName5 = CarRental.Contracts
+		SccLocalPath5 = CarRental.Contracts
+		SccProjectUniqueName6 = CarRental.Services\\CarRental.Services.csproj
+		SccProjectName6 = CarRental.Services
+		SccLocalPath6 = CarRental.Services
+		SccProjectUniqueName7 = CarRental.Core\\CarRental.Core.csproj
+		SccProjectName7 = CarRental.Core
+		SccLocalPath7 = CarRental.Core
+		SccProjectUniqueName8 = CarRental.BusinessLayer.Test\\CarRental.BusinessLayer.Test.csproj
+		SccProjectName8 = CarRental.BusinessLayer.Test
+		SccLocalPath8 = CarRental.BusinessLayer.Test
+		SccProjectUniqueName9 = CarRental.Services.Test\\CarRental.Services.Test.csproj
+		SccProjectName9 = CarRental.Services.Test
+		SccLocalPath9 = CarRental.Services.Test
+		SccProjectUniqueName10 = CarRental.BusinessLayer.IntegrationTest\\CarRental.BusinessLayer.IntegrationTest.csproj
+		SccProjectName10 = CarRental.BusinessLayer.IntegrationTest
+		SccLocalPath10 = CarRental.BusinessLayer.IntegrationTest
+		SccProjectUniqueName11 = CarRental.WpfClient\\CarRental.WpfClient.csproj
+		SccProjectName11 = CarRental.WpfClient
+		SccLocalPath11 = CarRental.WpfClient
+		SccProjectUniqueName12 = CodedUITestProject1\\CodedUITestProject1.csproj
+		SccProjectName12 = CodedUITestProject1
+		SccLocalPath12 = CodedUITestProject1
+	EndGlobalSection
+EndGlobal
